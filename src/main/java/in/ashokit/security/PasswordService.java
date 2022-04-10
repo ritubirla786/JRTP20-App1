@@ -9,6 +9,9 @@ public class PasswordService {
     int i=10;
     int b=20;
 	public static String encode(String txt) {
+		// making changes for BUD-101
+    int x=10;
+    int y=20;
 		Encoder encoder=Base64.getEncoder();
 		return encoder.encodeToString(txt.getBytes());
 		
