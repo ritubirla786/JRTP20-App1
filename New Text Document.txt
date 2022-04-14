@@ -1,2 +1,7 @@
 succes = data saved successfully
 error = Some problem occured
+
+
+name =raju
+salary=100000.00
+address=hyd
