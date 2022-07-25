@@ -12,9 +12,7 @@ public class PasswordService {
 		// making changes for BUD-101
     int x=10;
     int y=20;
-    int z=30;
-    int g=70;
-    int h=80;
+   
 		Encoder encoder=Base64.getEncoder();
 		return encoder.encodeToString(txt.getBytes());
 		
